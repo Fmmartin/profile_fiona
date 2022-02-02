@@ -1,0 +1,115 @@
+body {
+  background-color: #000000;
+  font-family: 'Red Hat Display', sans-serif;
+  color: #EBEBEB;
+  line-height: normal%;
+}
+
+h1 {
+  color: #EBEBEB;
+  font-size: xx-large;
+}
+
+h2 {
+  color: #EBEBEB;
+  font-size: medium;
+  font-weight:lighter;
+}
+
+h3 {
+  color: #EBEBEB;
+  font-size: large;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300px;
+}
+
+a {
+  color: #636363;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 200px;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+.container{
+  text-align: center;
+  margin: 0 auto;
+}
+
+img{
+  border-radius: 50%;
+}
+
+.card-white {
+  background:  #000000;
+  padding: 30px;
+  margin: 10px 0px;
+  border: 1px solid  #000000;
+  box-shadow: 0px 10px 60px rgba(137, 133, 149, 0.3);
+}
+
+.white-box {
+  background: #EBEBEB;
+  margin: 20px auto;
+  padding: 8px;
+  width: 50%;
+  border-radius: 15px;
+  font-size: 15px;
+  display: block;
+}
+
+ul {
+  display: block;
+  list-style: none;
+  text-align: center;
+  padding: 10px;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 10px;
+  font-size: 50px;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 5px;
+  margin-inline-end: 5px;
+}
+
+@media (min-width: 720px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
